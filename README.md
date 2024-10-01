@@ -1,4 +1,4 @@
-# NFT Poker Card
+# Staking smc
 
 # Local Development
 
@@ -46,7 +46,3 @@ npx hardhat --network linea_goerli verify --constructor-args ./args/linea/dino.j
 ### Get verify network hardhat support
 
 `npx hardhat verify --list-networks`
-
-
-npx hardhat run --network sepolia deploy/sepolia/deploy-card.js
-npx hardhat --network sepolia verify --constructor-args ./args/sepolia/nft-card.js 0x19ce9dc53AA037DBF092BE3A0A5F9b9980fb744A
